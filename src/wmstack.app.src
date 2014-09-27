@@ -1,0 +1,17 @@
+%%-*- mode: erlang -*-
+{application, {{appid}},
+ [
+  {description, "{{appid}}"},
+  {vsn, git},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib,
+                  lager,
+                  epgsql,
+                  webmachine,
+                  qdate
+                 ]},
+  {mod, { {{appid}}_app, []}},
+  {env, [ ]}
+ ]}.
