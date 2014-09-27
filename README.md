@@ -6,6 +6,7 @@ webmachine-based web application or API.
 ## Included libraries
 
 * [webmachine](https://github.com/basho/webmachine): HTTP resources
+* [lager](https://github.com/basho/lager): Sane, configurable error-logging
 * [epgsql](https://github.com/epgsql/epgsql): PostgreSQL database driver
 * [poolboy](https://github.com/devinus/poolboy): Connection pooling
   for PostgreSQL
